@@ -1,0 +1,135 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: century;
+}
+header
+{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/en\ route.jpg);
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+}
+
+.logo a 
+{
+    color: #fff;
+    padding: 0px 20px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    text-shadow: rgba(0, 0, 0, 0.7);
+}
+.logo span
+{
+    color: red;
+    font-weight: bold;
+    font-size: 2rem;
+}
+ul
+{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+}
+ul li a
+{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: 10px;
+    font-weight: 500;
+    transition: 0.6s ease;
+}
+ul li a:hover
+{
+    background-color: #fff;
+    color: black;
+
+}
+ul li.active a{
+    background: #fff;
+    color: #000;
+}
+.principal
+{
+    max-width: 114rem;
+    margin: 0 auto;
+}
+.war
+{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 10vh;
+    color: antiquewhite;
+    color: #fff;
+    font-size: 20.2px;
+    bottom: -20px;
+    
+}
+footer{
+    margin-top: 0px;
+    border-top: 5px solid #6f6f6f;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 30px 100px;
+    /* margin-right: -40px; */
+}
+footer h1{
+    font-family: 'Playfair Display', serif;
+    border-bottom: 1px solid white;
+    width: 20%;
+    padding-bottom: 5px;
+    /* text-align: center;
+    margin-right: 250px; */
+}
+footer .services{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .services .service{
+    margin-right: 30px;
+}
+footer .services .device p
+{
+    text-align: center;
+    margin-left: 500px;
+    margin-right: auto;
+    max-width: 300px;
+}
+footer .services .service ul
+{
+    display: inline;
+    text-align: center;
+    top: -5px;
+    list-style-type: disc;
+    line-height: 18px;
+    
+}
+footer .services .device h3
+{
+    margin-left: 500px;
+    text-align: center;
+} 
+footer #contact{
+    /* color: rgb(181, 181, 181); */
+    margin-top: 10px;
+}
+@media screen and (max-width:680px)
+{
+    footer{
+        padding: 30px;
+    }
+}
